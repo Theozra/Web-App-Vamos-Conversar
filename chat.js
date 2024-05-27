@@ -1,6 +1,23 @@
 // Configuração do Firebase de seu aplicativo
 //ADICIONE OS LINKS DO FIREBASE AQUI
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAUnjPbGOSZPA0S-fa3QJk7Hdmm-KOrte0",
+  authDomain: "web-app-vamos-conversar-ee47e.firebaseapp.com",
+  databaseURL: "https://web-app-vamos-conversar-ee47e-default-rtdb.firebaseio.com",
+  projectId: "web-app-vamos-conversar-ee47e",
+  storageBucket: "web-app-vamos-conversar-ee47e.appspot.com",
+  messagingSenderId: "1021981919010",
+  appId: "1:1021981919010:web:e1ade7dd731e521efac77b"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 // Inicialize o Firebase
 firebase.initializeApp(firebaseConfig);
